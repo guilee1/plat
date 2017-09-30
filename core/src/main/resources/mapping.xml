@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mapping>
+        <class name="com.rstc.modules.uemp.core.conf.Module">
+           <map-to xml="module"/>
+           <field name="name" type="string">
+              <bind-xml name="name" node="element"/>
+           </field>
+           <field name="className" type="string">
+              <bind-xml name="class-name" node="element"/>
+           </field>
+        </class>
+        
+        <class name="com.rstc.modules.uemp.core.conf.Feature">
+           <map-to xml="modules"/>
+           <field name="modules" type="com.rstc.modules.uemp.core.conf.Module" collection="arraylist">
+              <bind-xml name="modules" node="element"/>
+           </field>
+        </class>
+</mapping>

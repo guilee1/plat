@@ -1,0 +1,14 @@
+<modules>
+	<module>
+		<name>Start WebServer API</name>
+		<class-name>com.ltln.netmgt.server.util.StartWebContainer</class-name>
+	</module>
+	<module>
+		<name>Start WebServer Impl</name>
+		<class-name>com.ltln.netmgt.server.util.StartWebContainer</class-name>
+	</module>
+	<module>
+		<name>MSAN Module API</name>
+		<class-name>com.ltln.netmgt.server.util.StartWebContainer</class-name>
+	</module>
+</modules>

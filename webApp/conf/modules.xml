@@ -1,0 +1,6 @@
+<modules>
+	<module>
+		<name>Start MsgService</name>
+		<class-name>msgServiceModule</class-name>
+	</module>
+</modules>
